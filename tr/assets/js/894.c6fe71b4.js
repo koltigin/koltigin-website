@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkoltigin_website=self.webpackChunkkoltigin_website||[]).push([[894],{8894:(e,i,s)=>{s.r(i)}}]);
