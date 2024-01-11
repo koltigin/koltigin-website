@@ -1,0 +1,1 @@
+(self.webpackChunkkoltigin_website=self.webpackChunkkoltigin_website||[]).push([[525],{5525:()=>{}}]);
