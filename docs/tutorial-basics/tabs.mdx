@@ -8,8 +8,10 @@ sidebar_position: 7
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
+```mdx-code-block
 <Tabs className="forta-confs">
 <TabItem value="Polygon" default>
+```
 
 ```
 rm /root/.forta/config.yml
@@ -25,8 +27,10 @@ trace:
 EOF
 ```
 
+```mdx-code-block
 </TabItem>
 <TabItem value="BSC">
+```
 
 ```
 rm /root/.forta/config.yml
@@ -42,9 +46,11 @@ trace:
 EOF
 ```
 
+```mdx-code-block
 </TabItem>
 <TabItem value="Ethereum">
-  
+```
+
 ``` 
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
@@ -59,74 +65,8 @@ trace:
 EOF
 ```
 
+```mdx-code-block
 </TabItem>
 <TabItem value="Arbitrum">
-  
 ```
-rm /root/.forta/config.yml
-sudo tee /root/.forta/config.yml > /dev/null <<EOF
-chainId: 42161
-
-scan:
-  jsonRpc:
-    url: ALCHEMY_LINK
-
-trace:
-  enabled: false
-EOF
-```
-
-</TabItem>
-<TabItem value="Optimism">
-
-``` 
-rm /root/.forta/config.yml
-sudo tee /root/.forta/config.yml > /dev/null <<EOF
-chainId: 10
-
-scan:
-  jsonRpc:
-    url: ALCHEMY_LINK
-
-trace:
-  enabled: false
-EOF
-```
-
-</TabItem>
-<TabItem value="Avalanche">
-
-``` 
-rm /root/.forta/config.yml
-sudo tee /root/.forta/config.yml > /dev/null <<EOF
-chainId: 43114
-
-scan:
-  jsonRpc:
-    url: ALCHEMY_LINK
-
-trace:
-  enabled: false
-EOF
-``` 
-
-</TabItem>
-<TabItem value="Fantom">
-
-``` 
-rm /root/.forta/config.yml
-sudo tee /root/.forta/config.yml > /dev/null <<EOF
-chainId: 250
-
-scan:
-  jsonRpc:
-    url: ALCHEMY_LINK
-
-trace:
-  enabled: false
-EOF
-```
-
-</TabItem>
-</Tabs>
 ````
