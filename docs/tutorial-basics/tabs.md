@@ -1,10 +1,9 @@
 ```mdx-code-block
-import BrowserWindow from '@site/src/components/BrowserWindow';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 ```
 <Tabs className="forta-confs">
-  <TabItem value="Polygon">
+  <TabItem value="Polygon" default>
 
 ```
 rm /root/.forta/config.yml
