@@ -1,3 +1,4 @@
+```mdx-code-block
 <Tabs className="forta-confs">
   <TabItem value="Polygon">
 
@@ -112,3 +113,4 @@ EOF
   ``` 
   </TabItem>
 </Tabs>
+```
