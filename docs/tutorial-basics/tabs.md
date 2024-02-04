@@ -1,4 +1,9 @@
 ```mdx-code-block
+import BrowserWindow from '@site/src/components/BrowserWindow';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import styles from './markdown-features-tabs-styles.module.css';
+```
 <Tabs className="forta-confs">
   <TabItem value="Polygon">
 
@@ -113,4 +118,3 @@ EOF
   ``` 
   </TabItem>
 </Tabs>
-```
