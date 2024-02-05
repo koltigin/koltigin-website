@@ -9,6 +9,7 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
 <TabItem value="Polygon">
+  
 ```
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
@@ -24,6 +25,7 @@ EOF
 ```
 </TabItem>
 <TabItem value="BSC">
+  
 ```  
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
@@ -39,6 +41,7 @@ EOF
 ```
 </TabItem>
 <TabItem value="Ethereum">
+  
 ``` 
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
@@ -54,6 +57,7 @@ EOF
 ```
 </TabItem>
 <TabItem value="Arbitrum">
+  
 ```
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
@@ -69,6 +73,7 @@ EOF
 ```
 </TabItem>
 <TabItem value="Optimism">
+  
 ``` 
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
@@ -84,6 +89,7 @@ EOF
 ```
 </TabItem>
 <TabItem value="Avalanche">
+  
 ``` 
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
@@ -99,6 +105,7 @@ EOF
 ```
 </TabItem>
 <TabItem value="Fantom">
+  
 ``` 
 rm /root/.forta/config.yml
 sudo tee /root/.forta/config.yml > /dev/null <<EOF
