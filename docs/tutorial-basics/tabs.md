@@ -55,6 +55,7 @@ trace:
   enabled: false
 EOF
 ```
+
 </TabItem>
 <TabItem value="Arbitrum">
   
@@ -71,6 +72,7 @@ trace:
   enabled: false
 EOF
 ```
+
 </TabItem>
 <TabItem value="Optimism">
   
@@ -87,6 +89,7 @@ trace:
   enabled: false
 EOF
 ```
+
 </TabItem>
 <TabItem value="Avalanche">
   
@@ -103,6 +106,7 @@ trace:
   enabled: false
 EOF
 ```
+
 </TabItem>
 <TabItem value="Fantom">
   
@@ -119,5 +123,6 @@ trace:
   enabled: false
 EOF
 ```
+
 </TabItem>
 </Tabs>
